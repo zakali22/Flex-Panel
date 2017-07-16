@@ -5,8 +5,22 @@ body {
   min-height: 100vh;
   overflow: hidden;
   font-family: 'Amatic SC';
-  font-size: 30px;
+  font-size: 33px;
   color: white;
+}
+
+.panel {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.panel p {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.panel p:nth-child(2) {
+  font-size: 60px;
 }
 
 .panel {
